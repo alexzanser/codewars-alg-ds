@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+
 func quickSort(digits []int) []int {
 	if len(digits) < 2 {
 		return digits
